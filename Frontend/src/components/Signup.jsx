@@ -24,7 +24,7 @@ function Signup() {
     setMobileNumber("");
     setPass("");
 
-    fetch("http://localhost:8080/users", {
+    fetch("https://reliance-fullstack-project1.onrender.com/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Fixed case

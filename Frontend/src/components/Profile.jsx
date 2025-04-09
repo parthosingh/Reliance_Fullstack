@@ -10,7 +10,7 @@ const Profile = () => {
     if(!token){
       return
     }
-    fetch("http://localhost:8080/users", {
+    fetch("https://reliance-fullstack-project1.onrender.com/users", {
       headers: {
         "Authorization": `Bearer ${token}`,
       },
