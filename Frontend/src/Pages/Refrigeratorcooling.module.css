@@ -1,0 +1,92 @@
+.ParentRefrigeratorCooling{
+    padding-left: 22px;
+    background-color: #C3E3F0;
+    border-radius: 15px;
+    width: 97%;
+    margin: auto;
+    cursor: pointer;
+   }
+
+   .ParentRefrigeratorCooling> .headingRefrigeratorCooling{
+    padding-top: 10px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .headingRefrigeratorCooling > .heading{
+      font-weight: 900;
+      font-size: x-large
+    }
+    
+    .headingRefrigeratorCooling > .para {
+      padding-top: 5px;
+      color: #1F0093;
+    }
+    
+    p{
+      margin-left: 14px;
+      font-weight: 300;
+    }
+
+   .RefrigeratorCooling{
+    display: flex;
+    flex-direction: row;
+    
+   }
+   .RefrigeratorCooling> div{
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 12px;
+    background-color: #FFFFFF;
+   }
+
+   img{
+    padding: 2px 2px;
+   }
+ 
+  sup{
+    color: green;
+  }
+
+  span{
+    text-decoration-line: line-through;
+  }
+
+  .imageContainer{
+    width: 98%;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .imageContainer> img{
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  /* -------------------------------------- */
+  .container {
+    border-radius: 10px;
+    width: 98%;
+    margin: auto;
+    transition: color 1s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Dots Container */
+  .dotContainerStyles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Individual Dot */
+  .dotStyles {
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+    transition:  12s ease-in-out;
+  }
+  

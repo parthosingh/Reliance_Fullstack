@@ -1,0 +1,24 @@
+
+
+.container {
+    border-radius: 10px;
+    width: 98%;
+    margin: auto;
+    transition: color 1s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Dots Container */
+  .dotContainerStyles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Individual Dot */
+  .dotStyles {
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+    transition:  12s ease-in-out;
+  }

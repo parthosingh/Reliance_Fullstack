@@ -1,0 +1,29 @@
+.ParentElectronicsDeal {
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #C3E3F0;
+    padding-top: 10px; 
+}
+
+.ParentElectronicsDeal h2 {
+    margin: 0;  
+    padding: 10px 15px 15px  30px
+}
+
+.ElectronicsDeal{
+    width: 96%;
+    margin: auto;
+    display: grid;
+    margin: auto;
+    padding-bottom: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px 20px;
+}
+
+.ElectronicsDeal> div{  
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    cursor: pointer;    
+} 

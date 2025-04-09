@@ -1,0 +1,97 @@
+.Reliance2Banner{
+  width:99%;
+  height: 400px;
+  margin: auto;
+}
+.Reliance2Banner> img{
+  height:98%;
+  width:100%
+}
+.SmartAC {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 20px;
+    background-color: #FFFFFF;
+  }
+
+  .SmartAC > .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .heading + div{
+    color: #005DD2;
+  }
+
+.AC{
+    width: 99%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+}
+.AC > div{
+    text-align: center;
+    margin-left: 15px;
+}
+.titlediscount{
+    width: 75%; 
+    border-radius: 5px; 
+    padding-bottom: 5%;
+    background-color: #007FAD;
+    color: #FFFFFF; 
+  }
+
+  .RoomAC {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: flex-end;
+  }
+
+  .ACcontent{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #007FAD;
+    margin: 0px 3px 0px 3px;
+  }
+
+  .BudgetAC{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .smartAC{
+    width: 100%;
+    margin: auto;
+  }
+  .smartAC> img{
+    width: 99%;
+  }
+
+  .SplitAC {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: flex-end;
+  }
+
+  .SplitAC > div{
+    border: 1px solid black;
+  }
+  img + div{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center
+  }
+ 

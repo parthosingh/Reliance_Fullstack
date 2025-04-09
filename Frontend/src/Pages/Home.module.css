@@ -1,0 +1,122 @@
+
+.container {
+     border-radius: 10px;
+     width: 98%;
+     margin: auto;
+     transition: color 1s ease-in-out; 
+     cursor: pointer;
+   }
+   
+   /* Dots Container */
+   .dotContainerStyles {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+   }
+   
+   /* Individual Dot */
+   .dotStyles {
+     margin: 0px 5px;
+     cursor: pointer;
+     font-size: 20px;
+     color: gray;
+     transition:  12s ease-in-out;
+   }
+   
+   
+   
+   /*------------------------*/
+   .ParentEarphone{
+    background-color: #C3E3F0;
+    border-radius: 15px;
+    width: 97%;
+    margin: auto;
+   }
+
+   .ParentEarphone> .headingEarphone{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0px 0px 25px;
+    padding-top: 15px;
+    }
+ 
+  .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .para{
+    color: #1F0093;
+  }
+
+   .Earphone{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+   }
+   .Earphone> div{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+   }
+
+   img{
+    padding: 2px 2px;
+   }
+ 
+  sup{
+    color: green;
+  }
+
+  span{
+    text-decoration-line: line-through;
+  }
+
+/* ------------------------------------------------- */
+ 
+.ParentAirConditioners{
+    background-color: #C3E3F0;
+    border-radius: 15px;
+    width: 97%;
+    margin: auto;
+ }
+
+ .ParentAirConditioners> .headingAirConditioners{
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0px 0px 25px;
+  padding-top: 15px;
+  }
+
+ .AirConditioners{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px; 
+ }
+ .AirConditioners> div{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+ }
+
+ .AirConditioners> div> img{
+  padding: 30px 7px 5px 7px
+ }
+
+sup{
+  color: green;
+}
+
+span{
+  text-decoration-line: line-through;
+}

@@ -1,0 +1,80 @@
+.ParentMobileImage > img{
+    width: 99%;    
+  }
+.ParentMobileImage + div {
+    width: 99%;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.container {
+    width: 100%;
+    border-radius: 10px;
+    transition: color 1s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Dots Container */
+  .dotContainerStyles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Individual Dot */
+  .dotStyles {
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+    transition:  12s ease-in-out;
+  }
+  /* --------------------------------------------------- */
+
+  .displayMobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2{
+  margin-left: 14%;
+  padding-top: 7%;
+  font-weight:bolder
+  }
+
+  /* ------------------------------------------- */
+  
+  .Smartphoneheading {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 20px;
+  }
+
+  .Smartphoneheading > .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .heading + div{
+    color: #005DD2;
+  }
+  .mobile{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobile > div {
+    text-align: center;
+  }
+
+  .titlediscount{
+    color: #FFFFFF; 
+    border-radius: 5px;
+    width: 70%;  
+    padding-bottom: 5%;
+    background-color: #FA7D19;
+  }

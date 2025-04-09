@@ -1,0 +1,80 @@
+.headers{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0px 0px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.sorting{
+ /*  border: 1px solid black; */
+  border-radius: 10px;
+  padding: 5px 0px;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: white;
+}
+.ParentgridContainer{
+    width:95%;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    grid-template-rows:  repeat(3,330px);
+    grid-gap: 5px 10px;
+}
+
+.ParentgridContainer > div{
+    padding: 20px 0px;
+    background-color: white;
+}
+
+.ParentgridContainer > div>img{
+    margin-left: 30%;
+}
+
+.ParentgridContainer > div>img +p{
+    margin-left: 10px;
+    width:70%
+}
+
+.ParentgridContainer > div>img +p +h3{
+ margin-left: 5%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green for non-active buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .active {
+    background-color: #008CBA; /* Blue for active button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }

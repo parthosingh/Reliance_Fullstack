@@ -1,0 +1,168 @@
+.ParentTelevisionsBanner{
+    width:99%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ParentTelevisionsBanner >div{
+    border:8px solid #F0F0F0;
+    margin: 30px 0px 10px 0px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.ParentTelevisionsBanner >div> img{
+    width:105px;
+    height:105px;
+    margin: 20px 20px;
+}
+
+.ParentNameTelevisionsBanner {
+    width:98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------------sliding Tv Banner---------- */
+
+.container {
+    border-radius: 10px;
+    width: 99%;
+    margin: auto;
+    transition: color 1s ease-in-out; 
+    cursor: pointer;
+  }
+  
+  /* Dots Container */
+  .dotContainerStyles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Individual Dot */
+  .dotStyles {
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+    transition:  12s ease-in-out;
+  }
+  
+  /* -----------------------------------Televisions Size ------ */
+
+  .ParentShopbysize{
+    border-radius: 10px;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.titleParentShopbysize{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    padding:10px 0px
+}
+
+.Shopbysize {
+    width:96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+
+/* -------------------------------------Television Type-------- */
+.ParentShopbyType{
+    border-radius: 10px;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.titleParentShopbyType{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    padding:10px 0px
+}
+
+.ShopbyType{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* -------------------Television Budget---------- */
+
+.ParentShopbyBudget{
+    border-radius: 10px;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.titleParentShopbyBudget{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    padding:10px 0px
+}
+
+.ShopbyBudget{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* -------------------------------Televisions Deals -------------------- */
+
+.TelevisionDeals{
+    width:98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.TelevisionDeals > .heading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.TelevisionDeals + div{
+    width: 98%;
+    margin:auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.TV{
+    width:98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.titlediscount{
+    width:69%;
+    background-color: #007FAD;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.titlediscount + div{
+    text-align: center;
+    margin-left: 15px;
+}

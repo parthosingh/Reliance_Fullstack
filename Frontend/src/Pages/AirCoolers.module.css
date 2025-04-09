@@ -1,0 +1,122 @@
+ .ParentRefrigertaorBanner{
+    text-align: center;
+} 
+.ParentRefrigertaorBanner > img {
+    width: 99%;
+}
+
+.ShopRefrigertaor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+
+.ParentShopRefrigertaor{
+    background-color: white;
+} 
+
+.ParentShopRefrigertaor > h2{
+    margin-left: 80px;
+    font-weight: bolder;
+}
+.ShopCapacity{
+    border-radius: 10px;
+    width: 98%;
+    margin: auto;
+    background-color: white;
+}
+
+.ShopCapacity> div{
+    margin-left: 75px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+}
+.ShopCapacity> div+div{
+    width:96%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.ShopBrand{
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ShopBrand > div{
+  text-align: center;
+}
+.ShopBrandName{
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:120px
+}
+.ShopBrandName > div{
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.SmartAC {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 20px;
+  }
+
+  .SmartAC > .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .SmartAC + div {
+    margin-left: 25px;
+    font-size: 1.2rem
+  }
+  .heading + div{
+    color: #005DD2;
+  }
+
+.AC{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.AC > div{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.ParentShopbyRoomsize{
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+}
+
+.titleParentShopbyRoomsize{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-left: 6%;
+    padding:10px 0px
+}
+
+.ShopbyRoomsize {
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}

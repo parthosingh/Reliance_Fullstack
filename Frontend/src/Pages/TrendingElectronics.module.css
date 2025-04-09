@@ -1,0 +1,69 @@
+
+.ParentTrendingelectronic{
+    width: 97%;
+    margin: auto;
+    background-color: #C3E3F0;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Trendingelectronicsheading{
+    padding-top: 10px;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Trendingelectronicsheading > .heading{
+  font-weight: 900;
+  font-size: x-large
+}
+
+.Trendingelectronicsheading > .para {
+  padding-top: 5px;
+  color: #1F0093;
+}
+
+.Trendingelectronicsheading + p{
+    width:70%;
+    margin-left: 25px;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.Electronics{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+}
+
+.Electronics> div{
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+   }
+
+
+  .titleDiscount{
+    color: #FFFFFF; 
+    border-radius: 5px;
+    width: 70%;  
+    padding-bottom: 5%;
+    background-color: #007FAD;
+  }
+
+  img{
+    padding: 5px 5px;
+  }
+
+  sup{
+    color: green;
+  }
+
+  span{
+    text-decoration-line: line-through;
+  }
